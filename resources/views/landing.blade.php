@@ -20,7 +20,7 @@
             <span class="text-xl font-bold"><span class="text-purple-600">Meta</span><span class="text-white">Meal</span></span>
         </div>
         <ul class="flex space-x-6">
-            <li><a href="landingpg" class="hover:underline">Home</a></li>
+            <li><a href="landing" class="hover:underline">Home</a></li>
             <li><a href="about" class="hover:underline">About</a></li>
             <li><a href="fitur" class="hover:underline">Fitur</a></li>
 
@@ -34,7 +34,7 @@
             <p class="text-sm text-white mb-6 max-w-md">MetaMeal adalah solusi cerdas untuk membantu Anda mencapai gaya hidup sehat. Dapatkan rencana makan personal, rekomendasi makanan bergizi, dan panduan latihan sesuai kebutuhan Anda.</p>
             <div class="flex space-x-4">
                 <a href="#" class="bg-white text-custom-darkgreen px-4 py-2 rounded hover:bg-gray-100 font-semibold">Login</a>
-                <a href="#" class="border border-white text-white px-4 py-2 rounded hover:bg-white hover:text-custom-darkgreen font-semibold">Register</a>
+                <a href="daftar" class="border border-white text-white px-4 py-2 rounded hover:bg-white hover:text-custom-darkgreen font-semibold">Register</a>
             </div>
         </div>
         <div class="md:w-1/2">

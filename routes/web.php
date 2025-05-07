@@ -6,6 +6,10 @@ use App\Http\Controllers\DaftarController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LatihanController;
 use App\Http\Controllers\AboutController;
+use App\Http\Controllers\FiturController;
+use App\Http\Controllers\NotifikasiController;
+use App\Http\Controllers\BerandaController;
+
 
 Route::get('/', function () {
     return view('welcome');
@@ -22,7 +26,12 @@ Route::get('/program_latihan', [LatihanController::class, 'latihan']);
 Route::get('/program_latihan2', [LatihanController::class, 'latihan2']);
 use App\Http\Controllers\LandingController;
 
-Route::get('/', [LandingController::class, 'index'])->name('landing');
+Route::get('/landing', [LandingController::class, 'index'])->name('landing');
 
 
 Route::get('/about', [AboutController::class, 'index'])->name('about');
+
+Route::get('/fitur', [FiturController::class, 'index'])->name('fitur');
+Route::get('/notifikasi', [NotifikasiController::class, 'index'])->name('notifikasi');
+
+Route::get('/beranda', [BerandaController::class, 'index'])->name('beranda');

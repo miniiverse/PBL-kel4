@@ -22,13 +22,13 @@
             <span class="text-xl font-bold"><span class="text-purple-600">Meta</span><span class="text-white">Meal</span></span>
         </div>
         <ul class="flex space-x-6">
-            <li><a href="landingpg" class="hover:underline">Home</a></li>
+            <li><a href="landing" class="hover:underline">Home</a></li>
             <li><a href="about" class="hover:underline">About</a></li>
             <li><a href="fitur" class="hover:underline">Fitur</a></li>
         </ul>
         <div class="space-x-2">
             <a href="#" class="bg-white text-custom-darkgreen px-4 py-1 rounded hover:bg-gray-100 font-semibold">Login</a>
-            <a href="#" class="bg-custom-green text-white px-4 py-1 border border-white rounded hover:bg-white hover:text-custom-darkgreen font-semibold">Register</a>
+            <a href="daftar" class="bg-custom-green text-white px-4 py-1 border border-white rounded hover:bg-white hover:text-custom-darkgreen font-semibold">Register</a>
         </div>
     </nav>
 
